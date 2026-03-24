@@ -8,7 +8,7 @@ st.title("Ввод данных клиентов")
 
 # Создание файла если его нет
 if not os.path.exists(FILE_NAME):
-    df = pd.DataFrame(columns=["ФИО", "Номер счета"])
+    df = pd.DataFrame(columns=["ФИО", "Номер клиента"])
     df.to_csv(FILE_NAME, index=False)
 
 # Поля ввода
