@@ -4,7 +4,7 @@ import os
 
 FILE_NAME = "data.csv"
 
-st.title("Ввод данных клиентов")
+st.title("Ввод бонусной карты")
 
 # Создание файла если его нет
 if not os.path.exists(FILE_NAME):
